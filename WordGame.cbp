@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WordGame" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/WordGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/include" />
+					<Add directory="C:/gameproject/SDL2_ttf-2.20.2/x86_64-w64-mingw32/include/SDL2" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+					<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/lib" />
+					<Add directory="C:/gameproject/SDL2_ttf-2.20.2/x86_64-w64-mingw32/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/WordGame" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/gameproject/SDL2-2.26.5/x86_64-w64-mingw32/include" />
+			<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<ResourceCompiler>
+			<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/include" />
+		</ResourceCompiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image" />
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="C:/gameproject/SDL2-2.26.5/x86_64-w64-mingw32/lib" />
+			<Add directory="C:/gameproject/SDL2_image-2.6.3/x86_64-w64-mingw32/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY $(#sdl2)\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

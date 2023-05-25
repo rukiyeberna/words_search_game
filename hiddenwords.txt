@@ -1,0 +1,9 @@
+Bulmacada saklı olan kelimeler:
+
+-web
+-program
+-java
+-code
+-mobile
+
+Açılan oyun penceresinin title kısmında oynayacak kişi için kelimeler belirtilmiştir.
