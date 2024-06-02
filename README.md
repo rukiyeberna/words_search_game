@@ -1,6 +1,6 @@
 # GAME PROJECT : WORD SEARCH GAME
 
-I try to make word hunt game project using sdl library. some bugs i haven't been able to build yet
+I try to make word hunt game project using sdl library.
 
 # HOW THE GAME LOOKS :
 
